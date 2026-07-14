@@ -1,0 +1,58 @@
+======================================================================
+PARAMETER COUNTS (deep_sup='none', as trained)
+======================================================================
+  baseline  : 10,255,801 (10.26M)
+  vnet_se   : 10,277,707 (10.28M)
+  vnet_ssm  : 9,410,425 (9.41M)
+  pss_unet  : 14,320,471 (14.32M)
+  umamba    : 5,974,753 (5.97M)
+  umamba    : 5,974,753 (5.97M)
+
+Checkpoint parameter counts (from saved weights):
+  baseline  : 10,255,801 (10.26M)
+  vnet_se   : 10,277,707 (10.28M)
+  vnet_ssm  : 9,410,425 (9.41M)
+  pss_unet  : 14,320,471 (14.32M)
+  umamba    : 5,974,753 (5.97M)
+
+======================================================================
+TRAINING CONFIG (from saved config.json)
+======================================================================
+  (from runs_multiseed/_train/pss_unet/seed2/pss_unet/config.json)
+    lr: 0.0001
+    weight_decay: 1e-05
+    epochs: 150
+    patience: 30
+    accumulation_steps: 8
+    deep_sup: none
+    seed: 2
+
+======================================================================
+ENVIRONMENT
+======================================================================
+  torch: 2.2.0+cu121  cuda: 12.1
+  GPU: Tesla V100-SXM2-32GB
+
+======================================================================
+SEGMENTATION Dice (per seed + mean/std)
+======================================================================
+
+[test]
+  baseline   seeds=['0.9300', '0.9306', '0.9305'] mean=0.9304 std=0.0003
+  vnet_se    seeds=['0.9308', '0.9327', '0.9298'] mean=0.9311 std=0.0015
+  vnet_ssm   seeds=['0.9303', '0.9315', '0.9330'] mean=0.9316 std=0.0013
+  pss_unet   seeds=['0.9321', '0.9323', '0.9337'] mean=0.9327 std=0.0009
+  umamba     seeds=['0.9326', '0.9322', '0.9281'] mean=0.9310 std=0.0025
+
+[africa_std]
+  baseline   seeds=['0.8899', '0.8885', '0.8933'] mean=0.8906 std=0.0025
+  vnet_se    seeds=['0.8936', '0.8935', '0.8908'] mean=0.8926 std=0.0015
+  vnet_ssm   seeds=['0.8865', '0.8900', '0.8875'] mean=0.8880 std=0.0018
+  pss_unet   seeds=['0.8921', '0.8872', '0.8878'] mean=0.8890 std=0.0027
+  umamba     seeds=['0.8894'] mean=0.8894 std=nan
+
+======================================================================
+COPYING EXISTING RESULT FILES INTO paper_values/
+======================================================================
+  copied reliability_curves.json
+  copied 10 uq JSONs

@@ -1,0 +1,14 @@
+{
+  "model": "pss_unet",
+  "data_dir": "/g/data/ii16/Image/BrainTumorSeg/Data/BRATS2021_standardized",
+  "splits_file": "/g/data/ii16/Image/BrainTumorSeg/Config/data_splits_heldout.json",
+  "output_dir": "runs_multiseed/_train/pss_unet/seed2",
+  "epochs": 150,
+  "lr": 0.0001,
+  "weight_decay": 1e-05,
+  "accumulation_steps": 8,
+  "patience": 30,
+  "deep_sup": "none",
+  "seed": 2,
+  "resume": null
+}
