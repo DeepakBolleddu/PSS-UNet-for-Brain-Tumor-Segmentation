@@ -20,14 +20,7 @@ three things without a GPU:
    deep supervision off for everyone, flips-only augmentation, seeds 42/1/2,
    checkpoint chosen on the validation set only).
 
-> **The honest headline.** Under this leak-free, matched-preprocessing protocol,
-> distributing a genuine selective SSM (PSS-UNet) gives **no practical benefit**
-> over a tuned V-Net, in or out of distribution — the in-distribution gap is
-> ~0.2% Dice (Cohen's *d* ≈ 0.19) and out-of-distribution differences are not
-> significant. This reverses the original submission's central claim. The
-> contribution we stand behind is the reliability method: a simple TTA-entropy
-> score detects failures under domain shift (AUROC 0.90–0.96) and flags the
-> under-represented tumor subtype that fails most often.
+
 
 ---
 
@@ -58,14 +51,10 @@ PSS-UNet-for-Brain-Tumor-Segmentation/
 │   ├── training_config.json             # exact config emitted by a real training run
 │   ├── uq/                              # per-case UQ records (median seed), test + africa_std
 │   └── per_patient/                     # per-patient Dice for the paired significance tests
-├── make_tables.py                       # regenerates Table 1 and Table 3 from results/
 ├── requirements.txt
 └── LICENSE
 ```
 
-**Model weights** (5 models × 3 seeds) are **not** in git — GitHub caps files at
-~100 MB. They are on Zenodo with a DOI:
-`https://doi.org/10.5281/zenodo.XXXXXXX` *(replace with the real DOI once minted)*.
 
 **Data is not redistributed.** The BraTS 2021 and BraTS-Africa licenses forbid
 it. Download the datasets yourself (links below) and point the scripts at them.
