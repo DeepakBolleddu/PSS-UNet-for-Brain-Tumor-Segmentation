@@ -15,7 +15,7 @@ average into an ensemble probability, threshold at 0.5, and record:
   mean_conf  mean 2*|p-0.5| over FG  (1 = confident, 0 = unsure)
   pred_vol   predicted foreground voxel count (small lesions are risky)
 
-Reuses YOUR evaluate.py case discovery and loaders, so preprocessing is
+Reuses evaluate.py case discovery and loaders, so preprocessing is
 identical to your reported results. Same CLI shape as evaluate.py.
 
 Examples:
