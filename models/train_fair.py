@@ -15,7 +15,7 @@ Models:
 Protocol: AdamW, CosineAnnealingLR (NO warm restarts), Dice+BCE,
 fixed seed, early stop on VAL dice. deep_sup applied identically to all.
 
-Uses YOUR data_loader.create_data_loaders, which reads 'train' and
+Uses data_loader.create_data_loaders, which reads 'train' and
 'validation' from the splits file. Point --splits_file at the HELD-OUT
 splits so 'validation' is the 100-case set (NOT the 251).
 """
