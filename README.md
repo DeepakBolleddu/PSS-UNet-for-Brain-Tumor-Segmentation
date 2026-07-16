@@ -212,7 +212,7 @@ python make_tables.py
 
 ---
 
-## Results (what `make_tables.py` prints)
+## Results 
 
 **Table 1 — Segmentation Dice (mean ± seed std).** Four models overlap in and
 out of distribution; U-Mamba is level with them.
