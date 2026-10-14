@@ -5,7 +5,7 @@ This file contains all model variants for proper ablation study:
 - E1: BaselineVNet (no SE, no SSM)
 - E2: VNetWithSE (SE attention only, no SSM)  
 - E3: VNetWithSSM (SSM only, no SE)
-- E4: ProSSUNet (SE + SSM) - Already trained, just reference
+- E4: PSSUNet (SE + SSM)
 
 CRITICAL: All models use the SAME:
 - Base architecture (encoder-decoder structure)
