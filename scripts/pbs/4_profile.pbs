@@ -1,0 +1,16 @@
+#!/bin/bash
+#PBS -N pss_profile
+#PBS -l select=1:ncpus=8:mem=48gb:ngpus=1
+#PBS -l walltime=01:00:00
+#PBS -j oe
+#PBS -o /home/u8023272/pss/pss_revision_code_results_20261019/logs/
+#PBS -m ae
+#PBS -M u8023272@unisq.edu.au
+# Step 5: Table 5 profiling, exactly as Section 3.8 describes, with and without the 8-flip TTA.
+source $HOME/pss/pbs/common_env.sh
+set -uo pipefail
+nvidia-smi --query-gpu=name,driver_version --format=csv
+python profile_models.py --out $ROOT/profiling.json
+python profile_models.py --tta --out $ROOT/profiling_tta.json
+echo "DONE profiling"
+

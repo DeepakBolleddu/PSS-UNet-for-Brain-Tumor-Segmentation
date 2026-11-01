@@ -1,0 +1,50 @@
+#!/bin/bash
+#PBS -N pss_train
+#PBS -l select=1:ncpus=12:mem=90gb:ngpus=1
+#PBS -l walltime=24:00:00
+#PBS -j oe
+#PBS -o /home/u8023272/pss/pss_revision_code_results_20261019/logs/
+#PBS -m ae
+#PBS -M u8023272@unisq.edu.au
+# Step 1: train + evaluate one model/seed on the FULL cohort.
+#   qsub -v MODEL=res_baseline,SEED=42 2_train_model_seed.pbs   (and SEED=1, SEED=2)
+# Resumable: if the walltime kills training, resubmit unchanged and it continues from last.pth.
+# Once training has finished cleanly (FINAL/best.pth exists) it is never re-entered; only the
+# evaluations that are still missing are run.
+source $HOME/pss/pbs/common_env.sh
+set -uo pipefail
+[ -d "$FULL_DIR" ] || { echo "FULL_DIR not found: $FULL_DIR"; exit 1; }
+
+FINAL="$RUNS/$MODEL/seed${SEED}"; OUT="$RUNS/_train/$MODEL/seed${SEED}"
+CKPT="$OUT/$MODEL/best.pth"; LAST="$OUT/$MODEL/last.pth"
+mkdir -p "$FINAL"
+
+if [ -f "$FINAL/best.pth" ]; then
+  echo "training already finished for $MODEL seed$SEED (FINAL/best.pth present); skipping to evaluation"
+else
+  RESUME=""; [ -f "$LAST" ] && RESUME="--resume $LAST" && echo "resuming from $LAST"
+  python train_fair.py --model "$MODEL" --data_dir "$FULL_DIR" --splits_file "$SPLITS" \
+      --output_dir "$OUT" --epochs 150 --patience 30 --deep_sup none --seed "$SEED" $RESUME \
+    || { echo "training did NOT finish (walltime?). Resubmit to resume."; exit 1; }
+  cp "$CKPT" "$FINAL/best.pth"; cp "$OUT/$MODEL/config.json" "$FINAL/config.json"
+  echo "training finished cleanly"
+fi
+
+if [ ! -f "$FINAL/test_per_patient.json" ]; then
+  python evaluate.py --model "$MODEL" --checkpoint "$FINAL/best.pth" \
+      --data_dir "$FULL_DIR" --splits_file "$SPLITS" --split test --out_dir "$FINAL/test" \
+    && cp "$FINAL/test/per_patient.json" "$FINAL/test_per_patient.json"
+fi
+
+if [ ! -f "$FINAL/africa_std_per_patient.json" ]; then
+  if [ -d "$AFRICA_DIR" ] && [ -f "$AFRICA_SPLITS" ]; then
+    # standardised BraTS-Africa, flat layout: evaluated like a test split on the paper's 145 IDs
+    python evaluate.py --model "$MODEL" --checkpoint "$FINAL/best.pth" \
+        --data_dir "$AFRICA_DIR" --splits_file "$AFRICA_SPLITS" --split test --out_dir "$FINAL/africa_std" \
+      && cp "$FINAL/africa_std/per_patient.json" "$FINAL/africa_std_per_patient.json" \
+      && { grep -A2 '"skipped"' "$FINAL/africa_std/summary.json" || true; }
+  else
+    echo "standardised Africa not ready ($AFRICA_DIR / $AFRICA_SPLITS): Africa evaluation skipped; resubmit later."
+  fi
+fi
+echo "DONE $MODEL seed$SEED"

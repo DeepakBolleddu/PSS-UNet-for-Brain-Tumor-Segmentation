@@ -1,0 +1,34 @@
+#!/bin/bash
+#PBS -N pss_check
+#PBS -l select=1:ncpus=8:mem=48gb:ngpus=1
+#PBS -l walltime=01:00:00
+#PBS -j oe
+#PBS -o /home/u8023272/pss/pss_revision_code_results_20261019/logs/
+#PBS -m ae
+#PBS -M u8023272@unisq.edu.au
+# Step 0: environment + reproduction check. Must pass before anything else is submitted.
+source $HOME/pss/pbs/common_env.sh
+set -x
+nvidia-smi
+python -c "import torch, mamba_ssm, causal_conv1d; print('torch', torch.__version__, 'cuda', torch.version.cuda, 'gpu', torch.cuda.get_device_name(0))"
+python -c "import pss_unet; print('fused kernel:', pss_unet._HAS_MAMBA)"
+python res_baseline.py
+# reproduce the seed-42 PSS-UNet held-out Dice obtained on Gadi
+python evaluate.py --model pss_unet --checkpoint $RUNS/pss_unet/seed42/best.pth \
+    --data_dir $TEST_DIR --splits_file $SPLITS --split test --out_dir $ROOT/check_pss42
+# and the standardised Africa cohort (checks the local preprocessing reproduces Gadi's)
+python evaluate.py --model pss_unet --checkpoint $RUNS/pss_unet/seed42/best.pth \
+    --data_dir $AFRICA_DIR --splits_file $AFRICA_SPLITS --split test --out_dir $ROOT/check_pss42_africa
+python - <<'PY'
+import json, os
+root=os.environ["ROOT"]
+for tag, newp, oldp in [("TEST  ", f"{root}/check_pss42/summary.json", f"{root}/runs_multiseed/pss_unet/seed42/test/summary.json"),
+                        ("AFRICA", f"{root}/check_pss42_africa/summary.json", f"{root}/runs_multiseed/pss_unet/seed42/africa_std/summary.json")]:
+    if not os.path.exists(newp): print(tag, "no new summary"); continue
+    new=json.load(open(newp)); print(f"{tag} NEW  dice_mean={new['dice_mean']:.5f} n={new['n']}")
+    if os.path.exists(oldp):
+        old=json.load(open(oldp)); print(f"{tag} GADI dice_mean={old['dice_mean']:.5f} n={old['n']}")
+        print(tag, "MATCH" if abs(old["dice_mean"]-new["dice_mean"])<1e-4 else "MISMATCH -- stop and report")
+    else:
+        print(tag, "no Gadi summary.json to compare against (rsync runs_multiseed first)")
+PY

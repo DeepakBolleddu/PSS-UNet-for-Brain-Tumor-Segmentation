@@ -1,0 +1,33 @@
+#!/bin/bash
+#PBS -N pss_uq
+#PBS -l select=1:ncpus=8:mem=48gb:ngpus=1
+#PBS -l walltime=12:00:00
+#PBS -j oe
+#PBS -o /home/u8023272/pss/pss_revision_code_results_20261019/logs/
+#PBS -m ae
+#PBS -M u8023272@unisq.edu.au
+# Steps 3+4: TTA uncertainty for every (model, seed) whose checkpoint exists but whose UQ files do
+# not, then single-pass entropy for the median seeds. Uses the subset data only. Resumable.
+source $HOME/pss/pbs/common_env.sh
+set -uo pipefail
+run_uq () {  # model seed outdir extra_flags
+  local m=$1 s=$2 od=$3 fl=${4:-}
+  local ck=$RUNS/$m/seed$s/best.pth; [ -f "$ck" ] || { echo "no checkpoint: $ck"; return; }
+  [ -f "$od/${m}_seed${s}_test.json" ] || python uq_inference.py $fl --model $m --checkpoint $ck \
+      --data_dir $TEST_DIR --splits_file $SPLITS --split test --out $od/${m}_seed${s}_test.json
+  [ -f "$od/${m}_seed${s}_africa_std.json" ] || python uq_inference.py $fl --model $m --checkpoint $ck \
+      --data_dir $AFRICA_DIR --splits_file $AFRICA_SPLITS --split test --out $od/${m}_seed${s}_africa_std.json
+}
+# all seeds of all models (existing files are skipped, so the Gadi median-seed files are kept as-is)
+for m in baseline vnet_se vnet_ssm pss_unet umamba res_baseline; do
+  for s in 42 1 2; do run_uq $m $s $UQ; done
+done
+# single-pass entropy, median seeds (plus E0 seed 42 if trained)
+run_uq baseline 2 $UQS --single_pass
+run_uq vnet_se  1 $UQS --single_pass
+run_uq vnet_ssm 1 $UQS --single_pass
+run_uq pss_unet 42 $UQS --single_pass
+run_uq umamba   1 $UQS --single_pass
+run_uq res_baseline 42 $UQS --single_pass
+ls -la $UQ $UQS
+echo "DONE uq"
