@@ -1,0 +1,120 @@
+{
+  "environment": {
+    "torch": "2.2.0+cu121",
+    "cuda": "12.1",
+    "gpu": "Tesla V100S-PCIE-32GB",
+    "python": "3.9.13",
+    "mamba_ssm": "2.2.0",
+    "causal_conv1d": "1.4.0"
+  },
+  "rows": [
+    {
+      "model": "baseline",
+      "params_M": 10.26,
+      "tta": true,
+      "time_ms_mean": 1290.1234205812216,
+      "time_ms_sd": 12.037703327797015,
+      "throughput_vol_per_s": 0.7751196389795666,
+      "peak_mem_GB": 4.183165073394775,
+      "warmup": 5,
+      "timed": 20,
+      "input": [
+        1,
+        4,
+        240,
+        240,
+        152
+      ]
+    },
+    {
+      "model": "vnet_se",
+      "params_M": 10.28,
+      "tta": true,
+      "time_ms_mean": 1305.7557467371225,
+      "time_ms_sd": 16.50461007960516,
+      "throughput_vol_per_s": 0.7658400144888063,
+      "peak_mem_GB": 4.192060470581055,
+      "warmup": 5,
+      "timed": 20,
+      "input": [
+        1,
+        4,
+        240,
+        240,
+        152
+      ]
+    },
+    {
+      "model": "vnet_ssm",
+      "params_M": 9.41,
+      "tta": true,
+      "time_ms_mean": 3781.966535001993,
+      "time_ms_sd": 19.406849461250676,
+      "throughput_vol_per_s": 0.26441270454009264,
+      "peak_mem_GB": 4.187855243682861,
+      "warmup": 5,
+      "timed": 20,
+      "input": [
+        1,
+        4,
+        240,
+        240,
+        152
+      ]
+    },
+    {
+      "model": "pss_unet",
+      "params_M": 14.32,
+      "tta": true,
+      "time_ms_mean": 1704.5683540403843,
+      "time_ms_sd": 5.975887435871274,
+      "throughput_vol_per_s": 0.586658785275271,
+      "peak_mem_GB": 5.516801357269287,
+      "warmup": 5,
+      "timed": 20,
+      "input": [
+        1,
+        4,
+        240,
+        240,
+        152
+      ]
+    },
+    {
+      "model": "umamba",
+      "params_M": 5.97,
+      "tta": true,
+      "time_ms_mean": 2103.9115455001593,
+      "time_ms_sd": 5.447113414377069,
+      "throughput_vol_per_s": 0.47530515345989593,
+      "peak_mem_GB": 5.583803176879883,
+      "warmup": 5,
+      "timed": 20,
+      "input": [
+        1,
+        4,
+        240,
+        240,
+        152
+      ]
+    },
+    {
+      "model": "res_baseline",
+      "params_M": 12.67,
+      "tta": true,
+      "time_ms_mean": 1445.448512583971,
+      "time_ms_sd": 11.593129240962012,
+      "throughput_vol_per_s": 0.6918267868374914,
+      "peak_mem_GB": 4.9881672859191895,
+      "warmup": 5,
+      "timed": 20,
+      "input": [
+        1,
+        4,
+        240,
+        240,
+        152
+      ]
+    }
+  ]
+}
