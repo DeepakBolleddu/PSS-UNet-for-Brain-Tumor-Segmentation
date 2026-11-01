@@ -1,0 +1,14 @@
+{
+  "model": "res_baseline",
+  "data_dir": "/home/u8023272/data/BRATS2021_standardized",
+  "splits_file": "/home/u8023272/pss/pss_revision_code_results_20261019/Config/data_splits_heldout.json",
+  "output_dir": "/home/u8023272/pss/pss_revision_code_results_20261019/runs_multiseed/_train/res_baseline/seed42",
+  "epochs": 150,
+  "lr": 0.0001,
+  "weight_decay": 1e-05,
+  "accumulation_steps": 8,
+  "patience": 30,
+  "deep_sup": "none",
+  "seed": 42,
+  "resume": null
+}
