@@ -1,0 +1,2261 @@
+[
+  {
+    "dice": 0.8504229784011841,
+    "iou": 0.7397703528404236,
+    "sensitivity": 0.7552493810653687,
+    "specificity": 0.9995343685150146,
+    "precision": 0.9730420112609863,
+    "patient_id": "BraTS2021_00002",
+    "category": "test"
+  },
+  {
+    "dice": 0.8549540638923645,
+    "iou": 0.746654748916626,
+    "sensitivity": 0.7927002310752869,
+    "specificity": 0.9998060464859009,
+    "precision": 0.9278192520141602,
+    "patient_id": "BraTS2021_00009",
+    "category": "test"
+  },
+  {
+    "dice": 0.9622176289558411,
+    "iou": 0.9271863698959351,
+    "sensitivity": 0.9761835336685181,
+    "specificity": 0.9993932247161865,
+    "precision": 0.9486457705497742,
+    "patient_id": "BraTS2021_00017",
+    "category": "test"
+  },
+  {
+    "dice": 0.9356093406677246,
+    "iou": 0.8790093660354614,
+    "sensitivity": 0.9789296388626099,
+    "specificity": 0.9981125593185425,
+    "precision": 0.8959606885910034,
+    "patient_id": "BraTS2021_00019",
+    "category": "test"
+  },
+  {
+    "dice": 0.9535443782806396,
+    "iou": 0.9112133383750916,
+    "sensitivity": 0.9701430797576904,
+    "specificity": 0.9991164803504944,
+    "precision": 0.9375041127204895,
+    "patient_id": "BraTS2021_00030",
+    "category": "test"
+  },
+  {
+    "dice": 0.9633140563964844,
+    "iou": 0.9292246103286743,
+    "sensitivity": 0.9682029485702515,
+    "specificity": 0.9995722770690918,
+    "precision": 0.9584742784500122,
+    "patient_id": "BraTS2021_00032",
+    "category": "test"
+  },
+  {
+    "dice": 0.962515652179718,
+    "iou": 0.9277399182319641,
+    "sensitivity": 0.9599968194961548,
+    "specificity": 0.9998483657836914,
+    "precision": 0.9650477170944214,
+    "patient_id": "BraTS2021_00035",
+    "category": "test"
+  },
+  {
+    "dice": 0.9660422205924988,
+    "iou": 0.9343149065971375,
+    "sensitivity": 0.9720136523246765,
+    "specificity": 0.9992632269859314,
+    "precision": 0.9601436853408813,
+    "patient_id": "BraTS2021_00036",
+    "category": "test"
+  },
+  {
+    "dice": 0.9573251605033875,
+    "iou": 0.9181435704231262,
+    "sensitivity": 0.9424762725830078,
+    "specificity": 0.9995954036712646,
+    "precision": 0.9726494550704956,
+    "patient_id": "BraTS2021_00053",
+    "category": "test"
+  },
+  {
+    "dice": 0.9167853593826294,
+    "iou": 0.8463560938835144,
+    "sensitivity": 0.8617021441459656,
+    "specificity": 0.9997894763946533,
+    "precision": 0.9793916940689087,
+    "patient_id": "BraTS2021_00054",
+    "category": "test"
+  },
+  {
+    "dice": 0.9471690058708191,
+    "iou": 0.8996400833129883,
+    "sensitivity": 0.9484130144119263,
+    "specificity": 0.9998297095298767,
+    "precision": 0.9459282159805298,
+    "patient_id": "BraTS2021_00058",
+    "category": "test"
+  },
+  {
+    "dice": 0.9306308031082153,
+    "iou": 0.8702614307403564,
+    "sensitivity": 0.9832291603088379,
+    "specificity": 0.9984785914421082,
+    "precision": 0.8833742141723633,
+    "patient_id": "BraTS2021_00064",
+    "category": "test"
+  },
+  {
+    "dice": 0.9754572510719299,
+    "iou": 0.952090322971344,
+    "sensitivity": 0.9912176728248596,
+    "specificity": 0.9998174905776978,
+    "precision": 0.9601901769638062,
+    "patient_id": "BraTS2021_00066",
+    "category": "test"
+  },
+  {
+    "dice": 0.9810909628868103,
+    "iou": 0.9628837704658508,
+    "sensitivity": 0.9790595769882202,
+    "specificity": 0.9998683333396912,
+    "precision": 0.9831308126449585,
+    "patient_id": "BraTS2021_00078",
+    "category": "test"
+  },
+  {
+    "dice": 0.9680770635604858,
+    "iou": 0.938129186630249,
+    "sensitivity": 0.9457935690879822,
+    "specificity": 0.9999248385429382,
+    "precision": 0.9914359450340271,
+    "patient_id": "BraTS2021_00081",
+    "category": "test"
+  },
+  {
+    "dice": 0.9322320222854614,
+    "iou": 0.8730660676956177,
+    "sensitivity": 0.9477220773696899,
+    "specificity": 0.9988346099853516,
+    "precision": 0.9172401428222656,
+    "patient_id": "BraTS2021_00087",
+    "category": "test"
+  },
+  {
+    "dice": 0.978349506855011,
+    "iou": 0.9576166272163391,
+    "sensitivity": 0.9803026914596558,
+    "specificity": 0.9993425011634827,
+    "precision": 0.9764041304588318,
+    "patient_id": "BraTS2021_00095",
+    "category": "test"
+  },
+  {
+    "dice": 0.9708552360534668,
+    "iou": 0.9433611631393433,
+    "sensitivity": 0.9750604033470154,
+    "specificity": 0.9996711611747742,
+    "precision": 0.9666861295700073,
+    "patient_id": "BraTS2021_00115",
+    "category": "test"
+  },
+  {
+    "dice": 0.96152663230896,
+    "iou": 0.9259040355682373,
+    "sensitivity": 0.9633782505989075,
+    "specificity": 0.9997961521148682,
+    "precision": 0.9596821665763855,
+    "patient_id": "BraTS2021_00122",
+    "category": "test"
+  },
+  {
+    "dice": 0.9310380220413208,
+    "iou": 0.8709738850593567,
+    "sensitivity": 0.9821859002113342,
+    "specificity": 0.9980778694152832,
+    "precision": 0.8849535584449768,
+    "patient_id": "BraTS2021_00132",
+    "category": "test"
+  },
+  {
+    "dice": 0.9358907341957092,
+    "iou": 0.8795062303543091,
+    "sensitivity": 0.9533830285072327,
+    "specificity": 0.9994479417800903,
+    "precision": 0.9190287590026855,
+    "patient_id": "BraTS2021_00136",
+    "category": "test"
+  },
+  {
+    "dice": 0.9638551473617554,
+    "iou": 0.930232048034668,
+    "sensitivity": 0.9434717893600464,
+    "specificity": 0.9996906518936157,
+    "precision": 0.9851387143135071,
+    "patient_id": "BraTS2021_00137",
+    "category": "test"
+  },
+  {
+    "dice": 0.9321607351303101,
+    "iou": 0.8729410171508789,
+    "sensitivity": 0.8917034864425659,
+    "specificity": 0.9997998476028442,
+    "precision": 0.9764635562896729,
+    "patient_id": "BraTS2021_00139",
+    "category": "test"
+  },
+  {
+    "dice": 0.9161692261695862,
+    "iou": 0.8453065156936646,
+    "sensitivity": 0.9874586462974548,
+    "specificity": 0.9987549185752869,
+    "precision": 0.8544801473617554,
+    "patient_id": "BraTS2021_00144",
+    "category": "test"
+  },
+  {
+    "dice": 0.9583731889724731,
+    "iou": 0.920073390007019,
+    "sensitivity": 0.926555335521698,
+    "specificity": 0.9998560547828674,
+    "precision": 0.992453932762146,
+    "patient_id": "BraTS2021_00147",
+    "category": "test"
+  },
+  {
+    "dice": 0.8769192695617676,
+    "iou": 0.7808158993721008,
+    "sensitivity": 0.9849974513053894,
+    "specificity": 0.9992993474006653,
+    "precision": 0.7902136445045471,
+    "patient_id": "BraTS2021_00155",
+    "category": "test"
+  },
+  {
+    "dice": 0.9548776745796204,
+    "iou": 0.9136515855789185,
+    "sensitivity": 0.9966375231742859,
+    "specificity": 0.9997525215148926,
+    "precision": 0.9164766073226929,
+    "patient_id": "BraTS2021_00170",
+    "category": "test"
+  },
+  {
+    "dice": 0.9725008010864258,
+    "iou": 0.9464735984802246,
+    "sensitivity": 0.9788677096366882,
+    "specificity": 0.9994946718215942,
+    "precision": 0.9662162065505981,
+    "patient_id": "BraTS2021_00178",
+    "category": "test"
+  },
+  {
+    "dice": 0.9702238440513611,
+    "iou": 0.9421696066856384,
+    "sensitivity": 0.9968054294586182,
+    "specificity": 0.9989616274833679,
+    "precision": 0.9450230598449707,
+    "patient_id": "BraTS2021_00183",
+    "category": "test"
+  },
+  {
+    "dice": 0.9855363965034485,
+    "iou": 0.9714852571487427,
+    "sensitivity": 0.98759925365448,
+    "specificity": 0.9996694922447205,
+    "precision": 0.9834821820259094,
+    "patient_id": "BraTS2021_00187",
+    "category": "test"
+  },
+  {
+    "dice": 0.9670431613922119,
+    "iou": 0.9361893534660339,
+    "sensitivity": 0.9912981390953064,
+    "specificity": 0.9993729591369629,
+    "precision": 0.9439468383789062,
+    "patient_id": "BraTS2021_00196",
+    "category": "test"
+  },
+  {
+    "dice": 0.9703673124313354,
+    "iou": 0.9424402713775635,
+    "sensitivity": 0.9824172854423523,
+    "specificity": 0.9996314644813538,
+    "precision": 0.9586093425750732,
+    "patient_id": "BraTS2021_00199",
+    "category": "test"
+  },
+  {
+    "dice": 0.8401227593421936,
+    "iou": 0.7243203520774841,
+    "sensitivity": 0.815584123134613,
+    "specificity": 0.9989231824874878,
+    "precision": 0.8661837577819824,
+    "patient_id": "BraTS2021_00212",
+    "category": "test"
+  },
+  {
+    "dice": 0.9185922741889954,
+    "iou": 0.8494411706924438,
+    "sensitivity": 0.9857578873634338,
+    "specificity": 0.9997835159301758,
+    "precision": 0.8599955439567566,
+    "patient_id": "BraTS2021_00218",
+    "category": "test"
+  },
+  {
+    "dice": 0.9640799164772034,
+    "iou": 0.9306508302688599,
+    "sensitivity": 0.9660695791244507,
+    "specificity": 0.9996525049209595,
+    "precision": 0.9620983600616455,
+    "patient_id": "BraTS2021_00231",
+    "category": "test"
+  },
+  {
+    "dice": 0.712426483631134,
+    "iou": 0.5533093810081482,
+    "sensitivity": 0.5657740235328674,
+    "specificity": 0.9995619654655457,
+    "precision": 0.961707592010498,
+    "patient_id": "BraTS2021_00242",
+    "category": "test"
+  },
+  {
+    "dice": 0.9681934118270874,
+    "iou": 0.9383477568626404,
+    "sensitivity": 0.9696599245071411,
+    "specificity": 0.9996696710586548,
+    "precision": 0.9667313098907471,
+    "patient_id": "BraTS2021_00243",
+    "category": "test"
+  },
+  {
+    "dice": 0.9492960572242737,
+    "iou": 0.9034857749938965,
+    "sensitivity": 0.9986885190010071,
+    "specificity": 0.9997332096099854,
+    "precision": 0.9045590758323669,
+    "patient_id": "BraTS2021_00246",
+    "category": "test"
+  },
+  {
+    "dice": 0.9696233868598938,
+    "iou": 0.9410378932952881,
+    "sensitivity": 0.9795318841934204,
+    "specificity": 0.9995336532592773,
+    "precision": 0.959913432598114,
+    "patient_id": "BraTS2021_00254",
+    "category": "test"
+  },
+  {
+    "dice": 0.6227691173553467,
+    "iou": 0.4521893262863159,
+    "sensitivity": 0.92521071434021,
+    "specificity": 0.9975564479827881,
+    "precision": 0.4693451225757599,
+    "patient_id": "BraTS2021_00258",
+    "category": "test"
+  },
+  {
+    "dice": 0.9858587980270386,
+    "iou": 0.9721119999885559,
+    "sensitivity": 0.9945225119590759,
+    "specificity": 0.9997674226760864,
+    "precision": 0.9773447513580322,
+    "patient_id": "BraTS2021_00263",
+    "category": "test"
+  },
+  {
+    "dice": 0.9547972083091736,
+    "iou": 0.9135042428970337,
+    "sensitivity": 0.9984153509140015,
+    "specificity": 0.9987506866455078,
+    "precision": 0.9148306846618652,
+    "patient_id": "BraTS2021_00273",
+    "category": "test"
+  },
+  {
+    "dice": 0.9601202607154846,
+    "iou": 0.9232993125915527,
+    "sensitivity": 0.9809210896492004,
+    "specificity": 0.999504029750824,
+    "precision": 0.9401832818984985,
+    "patient_id": "BraTS2021_00275",
+    "category": "test"
+  },
+  {
+    "dice": 0.9669092893600464,
+    "iou": 0.9359384775161743,
+    "sensitivity": 0.9806801676750183,
+    "specificity": 0.9997116923332214,
+    "precision": 0.9535198211669922,
+    "patient_id": "BraTS2021_00282",
+    "category": "test"
+  },
+  {
+    "dice": 0.9217135906219482,
+    "iou": 0.8547947406768799,
+    "sensitivity": 0.9948705434799194,
+    "specificity": 0.9992411732673645,
+    "precision": 0.8585787415504456,
+    "patient_id": "BraTS2021_00289",
+    "category": "test"
+  },
+  {
+    "dice": 0.931185245513916,
+    "iou": 0.8712316751480103,
+    "sensitivity": 0.9739598035812378,
+    "specificity": 0.998383641242981,
+    "precision": 0.8920097947120667,
+    "patient_id": "BraTS2021_00290",
+    "category": "test"
+  },
+  {
+    "dice": 0.9275113940238953,
+    "iou": 0.8648216128349304,
+    "sensitivity": 0.9975283741950989,
+    "specificity": 0.9989864230155945,
+    "precision": 0.866678774356842,
+    "patient_id": "BraTS2021_00291",
+    "category": "test"
+  },
+  {
+    "dice": 0.9791717529296875,
+    "iou": 0.9591934084892273,
+    "sensitivity": 0.9970995187759399,
+    "specificity": 0.9993160963058472,
+    "precision": 0.9618772268295288,
+    "patient_id": "BraTS2021_00294",
+    "category": "test"
+  },
+  {
+    "dice": 0.9797043204307556,
+    "iou": 0.9602161645889282,
+    "sensitivity": 0.9904642701148987,
+    "specificity": 0.999454915523529,
+    "precision": 0.9691756963729858,
+    "patient_id": "BraTS2021_00322",
+    "category": "test"
+  },
+  {
+    "dice": 0.8400835990905762,
+    "iou": 0.7242622375488281,
+    "sensitivity": 0.7644930481910706,
+    "specificity": 0.9998294115066528,
+    "precision": 0.9322627782821655,
+    "patient_id": "BraTS2021_00331",
+    "category": "test"
+  },
+  {
+    "dice": 0.9167706966400146,
+    "iou": 0.8463311791419983,
+    "sensitivity": 0.9596654176712036,
+    "specificity": 0.9996185898780823,
+    "precision": 0.877546489238739,
+    "patient_id": "BraTS2021_00341",
+    "category": "test"
+  },
+  {
+    "dice": 0.9605317711830139,
+    "iou": 0.9240607023239136,
+    "sensitivity": 0.9996465444564819,
+    "specificity": 0.9996282458305359,
+    "precision": 0.9243626594543457,
+    "patient_id": "BraTS2021_00346",
+    "category": "test"
+  },
+  {
+    "dice": 0.9179925322532654,
+    "iou": 0.8484160900115967,
+    "sensitivity": 0.9721829295158386,
+    "specificity": 0.9996337294578552,
+    "precision": 0.8695244193077087,
+    "patient_id": "BraTS2021_00348",
+    "category": "test"
+  },
+  {
+    "dice": 0.9455496668815613,
+    "iou": 0.8967227935791016,
+    "sensitivity": 0.9890205264091492,
+    "specificity": 0.9990566968917847,
+    "precision": 0.9057392477989197,
+    "patient_id": "BraTS2021_00353",
+    "category": "test"
+  },
+  {
+    "dice": 0.9577939510345459,
+    "iou": 0.91900634765625,
+    "sensitivity": 0.985381543636322,
+    "specificity": 0.999347448348999,
+    "precision": 0.9317091107368469,
+    "patient_id": "BraTS2021_00360",
+    "category": "test"
+  },
+  {
+    "dice": 0.9383441209793091,
+    "iou": 0.8838496208190918,
+    "sensitivity": 0.9643890261650085,
+    "specificity": 0.9990771412849426,
+    "precision": 0.9136689901351929,
+    "patient_id": "BraTS2021_00367",
+    "category": "test"
+  },
+  {
+    "dice": 0.9210335612297058,
+    "iou": 0.8536257743835449,
+    "sensitivity": 0.9941314458847046,
+    "specificity": 0.9996629357337952,
+    "precision": 0.8579490780830383,
+    "patient_id": "BraTS2021_00373",
+    "category": "test"
+  },
+  {
+    "dice": 0.9689732789993286,
+    "iou": 0.9398139715194702,
+    "sensitivity": 0.9837918877601624,
+    "specificity": 0.9998358488082886,
+    "precision": 0.9545944333076477,
+    "patient_id": "BraTS2021_00377",
+    "category": "test"
+  },
+  {
+    "dice": 0.9805605411529541,
+    "iou": 0.9618625044822693,
+    "sensitivity": 0.9782412052154541,
+    "specificity": 0.9996350407600403,
+    "precision": 0.9828909039497375,
+    "patient_id": "BraTS2021_00388",
+    "category": "test"
+  },
+  {
+    "dice": 0.9467365741729736,
+    "iou": 0.8988602161407471,
+    "sensitivity": 0.9795598387718201,
+    "specificity": 0.9998295903205872,
+    "precision": 0.9160417318344116,
+    "patient_id": "BraTS2021_00389",
+    "category": "test"
+  },
+  {
+    "dice": 0.9345671534538269,
+    "iou": 0.8771712779998779,
+    "sensitivity": 0.9910312294960022,
+    "specificity": 0.9979292750358582,
+    "precision": 0.8841903209686279,
+    "patient_id": "BraTS2021_00401",
+    "category": "test"
+  },
+  {
+    "dice": 0.9490507245063782,
+    "iou": 0.9030413627624512,
+    "sensitivity": 0.9998593330383301,
+    "specificity": 0.9995629191398621,
+    "precision": 0.9031561017036438,
+    "patient_id": "BraTS2021_00403",
+    "category": "test"
+  },
+  {
+    "dice": 0.9616140127182007,
+    "iou": 0.9260661005973816,
+    "sensitivity": 0.9991756081581116,
+    "specificity": 0.9995379447937012,
+    "precision": 0.9267742037773132,
+    "patient_id": "BraTS2021_00412",
+    "category": "test"
+  },
+  {
+    "dice": 0.8172813653945923,
+    "iou": 0.6910192370414734,
+    "sensitivity": 0.9778813123703003,
+    "specificity": 0.9984681010246277,
+    "precision": 0.7019914984703064,
+    "patient_id": "BraTS2021_00419",
+    "category": "test"
+  },
+  {
+    "dice": 0.9830672740936279,
+    "iou": 0.9666984677314758,
+    "sensitivity": 0.9956216812133789,
+    "specificity": 0.9995620250701904,
+    "precision": 0.9708254933357239,
+    "patient_id": "BraTS2021_00421",
+    "category": "test"
+  },
+  {
+    "dice": 0.9824001789093018,
+    "iou": 0.9654091596603394,
+    "sensitivity": 0.9905338883399963,
+    "specificity": 0.9995554089546204,
+    "precision": 0.9743989109992981,
+    "patient_id": "BraTS2021_00426",
+    "category": "test"
+  },
+  {
+    "dice": 0.9464858174324036,
+    "iou": 0.8984082341194153,
+    "sensitivity": 0.9384697675704956,
+    "specificity": 0.9997696876525879,
+    "precision": 0.9546400308609009,
+    "patient_id": "BraTS2021_00442",
+    "category": "test"
+  },
+  {
+    "dice": 0.9518053531646729,
+    "iou": 0.9080425500869751,
+    "sensitivity": 0.9610302448272705,
+    "specificity": 0.9992981553077698,
+    "precision": 0.9427558779716492,
+    "patient_id": "BraTS2021_00443",
+    "category": "test"
+  },
+  {
+    "dice": 0.9804091453552246,
+    "iou": 0.961571216583252,
+    "sensitivity": 0.9876020550727844,
+    "specificity": 0.9993144273757935,
+    "precision": 0.9733203053474426,
+    "patient_id": "BraTS2021_00446",
+    "category": "test"
+  },
+  {
+    "dice": 0.9608409404754639,
+    "iou": 0.9246331453323364,
+    "sensitivity": 0.9938010573387146,
+    "specificity": 0.9992791414260864,
+    "precision": 0.9299968481063843,
+    "patient_id": "BraTS2021_00457",
+    "category": "test"
+  },
+  {
+    "dice": 0.9745715260505676,
+    "iou": 0.9504042267799377,
+    "sensitivity": 0.9869232773780823,
+    "specificity": 0.9996480941772461,
+    "precision": 0.9625251889228821,
+    "patient_id": "BraTS2021_00459",
+    "category": "test"
+  },
+  {
+    "dice": 0.9608117341995239,
+    "iou": 0.9245790243148804,
+    "sensitivity": 0.9357821941375732,
+    "specificity": 0.9998865723609924,
+    "precision": 0.9872169494628906,
+    "patient_id": "BraTS2021_00478",
+    "category": "test"
+  },
+  {
+    "dice": 0.9484004378318787,
+    "iou": 0.9018645882606506,
+    "sensitivity": 0.906732439994812,
+    "specificity": 0.9999721050262451,
+    "precision": 0.9940825700759888,
+    "patient_id": "BraTS2021_00479",
+    "category": "test"
+  },
+  {
+    "dice": 0.9644589424133301,
+    "iou": 0.9313575625419617,
+    "sensitivity": 0.9509485960006714,
+    "specificity": 0.9997573494911194,
+    "precision": 0.9783587455749512,
+    "patient_id": "BraTS2021_00491",
+    "category": "test"
+  },
+  {
+    "dice": 0.7133080959320068,
+    "iou": 0.5543736219406128,
+    "sensitivity": 0.5559793710708618,
+    "specificity": 0.9999411702156067,
+    "precision": 0.994817316532135,
+    "patient_id": "BraTS2021_00494",
+    "category": "test"
+  },
+  {
+    "dice": 0.9746189117431641,
+    "iou": 0.9504942893981934,
+    "sensitivity": 0.971168577671051,
+    "specificity": 0.9997336268424988,
+    "precision": 0.9780938625335693,
+    "patient_id": "BraTS2021_00499",
+    "category": "test"
+  },
+  {
+    "dice": 0.9416671395301819,
+    "iou": 0.8897646069526672,
+    "sensitivity": 0.9202294945716858,
+    "specificity": 0.9997832179069519,
+    "precision": 0.9641274213790894,
+    "patient_id": "BraTS2021_00500",
+    "category": "test"
+  },
+  {
+    "dice": 0.9249455332756042,
+    "iou": 0.8603708744049072,
+    "sensitivity": 0.9384710788726807,
+    "specificity": 0.9994123578071594,
+    "precision": 0.9118042588233948,
+    "patient_id": "BraTS2021_00518",
+    "category": "test"
+  },
+  {
+    "dice": 0.8939833641052246,
+    "iou": 0.8082910776138306,
+    "sensitivity": 0.8112456798553467,
+    "specificity": 0.9999765753746033,
+    "precision": 0.9955143332481384,
+    "patient_id": "BraTS2021_00523",
+    "category": "test"
+  },
+  {
+    "dice": 0.8895348310470581,
+    "iou": 0.8010470271110535,
+    "sensitivity": 0.8213703036308289,
+    "specificity": 0.999839186668396,
+    "precision": 0.970037043094635,
+    "patient_id": "BraTS2021_00529",
+    "category": "test"
+  },
+  {
+    "dice": 0.8802038431167603,
+    "iou": 0.7860392928123474,
+    "sensitivity": 0.987232506275177,
+    "specificity": 0.999759316444397,
+    "precision": 0.7941119074821472,
+    "patient_id": "BraTS2021_00530",
+    "category": "test"
+  },
+  {
+    "dice": 0.8316024541854858,
+    "iou": 0.7117461562156677,
+    "sensitivity": 0.7309014201164246,
+    "specificity": 0.9999048709869385,
+    "precision": 0.9644858837127686,
+    "patient_id": "BraTS2021_00550",
+    "category": "test"
+  },
+  {
+    "dice": 0.9550484418869019,
+    "iou": 0.9139642715454102,
+    "sensitivity": 0.9707070589065552,
+    "specificity": 0.9989738464355469,
+    "precision": 0.9398869276046753,
+    "patient_id": "BraTS2021_00554",
+    "category": "test"
+  },
+  {
+    "dice": 0.9664698839187622,
+    "iou": 0.935115396976471,
+    "sensitivity": 0.9667226672172546,
+    "specificity": 0.9992532134056091,
+    "precision": 0.9662172794342041,
+    "patient_id": "BraTS2021_00558",
+    "category": "test"
+  },
+  {
+    "dice": 0.9727316498756409,
+    "iou": 0.9469109773635864,
+    "sensitivity": 0.9788039922714233,
+    "specificity": 0.9994415044784546,
+    "precision": 0.9667342305183411,
+    "patient_id": "BraTS2021_00561",
+    "category": "test"
+  },
+  {
+    "dice": 0.9550537467002869,
+    "iou": 0.9139740467071533,
+    "sensitivity": 0.9828426837921143,
+    "specificity": 0.9992747902870178,
+    "precision": 0.9287930130958557,
+    "patient_id": "BraTS2021_00572",
+    "category": "test"
+  },
+  {
+    "dice": 0.9612434506416321,
+    "iou": 0.9253789782524109,
+    "sensitivity": 0.9910050630569458,
+    "specificity": 0.9985640048980713,
+    "precision": 0.9332173466682434,
+    "patient_id": "BraTS2021_00578",
+    "category": "test"
+  },
+  {
+    "dice": 0.9485540986061096,
+    "iou": 0.9021425843238831,
+    "sensitivity": 0.9746280312538147,
+    "specificity": 0.9987089037895203,
+    "precision": 0.9238389134407043,
+    "patient_id": "BraTS2021_00581",
+    "category": "test"
+  },
+  {
+    "dice": 0.9700244069099426,
+    "iou": 0.9417935609817505,
+    "sensitivity": 0.9687468409538269,
+    "specificity": 0.9997407793998718,
+    "precision": 0.9713053703308105,
+    "patient_id": "BraTS2021_00596",
+    "category": "test"
+  },
+  {
+    "dice": 0.982760488986969,
+    "iou": 0.9661053419113159,
+    "sensitivity": 0.9893314242362976,
+    "specificity": 0.999581515789032,
+    "precision": 0.9762762784957886,
+    "patient_id": "BraTS2021_00604",
+    "category": "test"
+  },
+  {
+    "dice": 0.9606711268424988,
+    "iou": 0.9243186712265015,
+    "sensitivity": 0.9506391882896423,
+    "specificity": 0.9996455907821655,
+    "precision": 0.9709169864654541,
+    "patient_id": "BraTS2021_00608",
+    "category": "test"
+  },
+  {
+    "dice": 0.9811921119689941,
+    "iou": 0.9630786180496216,
+    "sensitivity": 0.9947180151939392,
+    "specificity": 0.9994943737983704,
+    "precision": 0.9680290818214417,
+    "patient_id": "BraTS2021_00616",
+    "category": "test"
+  },
+  {
+    "dice": 0.9614956974983215,
+    "iou": 0.9258466362953186,
+    "sensitivity": 0.9563301205635071,
+    "specificity": 0.9995080232620239,
+    "precision": 0.9667173624038696,
+    "patient_id": "BraTS2021_00619",
+    "category": "test"
+  },
+  {
+    "dice": 0.9825002551078796,
+    "iou": 0.9656025171279907,
+    "sensitivity": 0.9956167936325073,
+    "specificity": 0.999623715877533,
+    "precision": 0.9697248935699463,
+    "patient_id": "BraTS2021_00620",
+    "category": "test"
+  },
+  {
+    "dice": 0.9048875570297241,
+    "iou": 0.8262965083122253,
+    "sensitivity": 0.9195992946624756,
+    "specificity": 0.9990129470825195,
+    "precision": 0.8906391859054565,
+    "patient_id": "BraTS2021_00624",
+    "category": "test"
+  },
+  {
+    "dice": 0.9546427130699158,
+    "iou": 0.9132214784622192,
+    "sensitivity": 0.9653763771057129,
+    "specificity": 0.9997836351394653,
+    "precision": 0.944145143032074,
+    "patient_id": "BraTS2021_00641",
+    "category": "test"
+  },
+  {
+    "dice": 0.9602035284042358,
+    "iou": 0.9234533309936523,
+    "sensitivity": 0.9474033117294312,
+    "specificity": 0.9995265603065491,
+    "precision": 0.9733543395996094,
+    "patient_id": "BraTS2021_00649",
+    "category": "test"
+  },
+  {
+    "dice": 0.8519861102104187,
+    "iou": 0.7421392202377319,
+    "sensitivity": 0.7766362428665161,
+    "specificity": 0.9994769096374512,
+    "precision": 0.9435279965400696,
+    "patient_id": "BraTS2021_00654",
+    "category": "test"
+  },
+  {
+    "dice": 0.9623275399208069,
+    "iou": 0.927390456199646,
+    "sensitivity": 0.9687958359718323,
+    "specificity": 0.9996320605278015,
+    "precision": 0.9559450149536133,
+    "patient_id": "BraTS2021_00658",
+    "category": "test"
+  },
+  {
+    "dice": 0.9767171144485474,
+    "iou": 0.9544937610626221,
+    "sensitivity": 0.9674933552742004,
+    "specificity": 0.9997246265411377,
+    "precision": 0.9861184358596802,
+    "patient_id": "BraTS2021_00679",
+    "category": "test"
+  },
+  {
+    "dice": 0.8722626566886902,
+    "iou": 0.7734625935554504,
+    "sensitivity": 0.8001298308372498,
+    "specificity": 0.9996445775032043,
+    "precision": 0.9586898684501648,
+    "patient_id": "BraTS2021_00685",
+    "category": "test"
+  },
+  {
+    "dice": 0.9697628617286682,
+    "iou": 0.9413005709648132,
+    "sensitivity": 0.9618749618530273,
+    "specificity": 0.999343991279602,
+    "precision": 0.9777811169624329,
+    "patient_id": "BraTS2021_00686",
+    "category": "test"
+  },
+  {
+    "dice": 0.930118978023529,
+    "iou": 0.8693667650222778,
+    "sensitivity": 0.9885076284408569,
+    "specificity": 0.9996189475059509,
+    "precision": 0.8782433867454529,
+    "patient_id": "BraTS2021_00688",
+    "category": "test"
+  },
+  {
+    "dice": 0.9538352489471436,
+    "iou": 0.9117447137832642,
+    "sensitivity": 0.9261983036994934,
+    "specificity": 0.9999076128005981,
+    "precision": 0.9831721782684326,
+    "patient_id": "BraTS2021_00690",
+    "category": "test"
+  },
+  {
+    "dice": 0.9296396374702454,
+    "iou": 0.8685296177864075,
+    "sensitivity": 0.8956962823867798,
+    "specificity": 0.9995224475860596,
+    "precision": 0.9662569761276245,
+    "patient_id": "BraTS2021_00693",
+    "category": "test"
+  },
+  {
+    "dice": 0.8456215262413025,
+    "iou": 0.7325340509414673,
+    "sensitivity": 0.9129959940910339,
+    "specificity": 0.9980010986328125,
+    "precision": 0.7875074744224548,
+    "patient_id": "BraTS2021_00694",
+    "category": "test"
+  },
+  {
+    "dice": 0.9519861340522766,
+    "iou": 0.9083716869354248,
+    "sensitivity": 0.9574311971664429,
+    "specificity": 0.999069094657898,
+    "precision": 0.9466027021408081,
+    "patient_id": "BraTS2021_00706",
+    "category": "test"
+  },
+  {
+    "dice": 0.9249365925788879,
+    "iou": 0.8603553771972656,
+    "sensitivity": 0.8704406023025513,
+    "specificity": 0.9998592138290405,
+    "precision": 0.9867120385169983,
+    "patient_id": "BraTS2021_00707",
+    "category": "test"
+  },
+  {
+    "dice": 0.9623489379882812,
+    "iou": 0.9274302124977112,
+    "sensitivity": 0.9345611333847046,
+    "specificity": 0.9999411702156067,
+    "precision": 0.9918398261070251,
+    "patient_id": "BraTS2021_00715",
+    "category": "test"
+  },
+  {
+    "dice": 0.9688069820404053,
+    "iou": 0.939501166343689,
+    "sensitivity": 0.9576106667518616,
+    "specificity": 0.9998182058334351,
+    "precision": 0.9802682399749756,
+    "patient_id": "BraTS2021_00733",
+    "category": "test"
+  },
+  {
+    "dice": 0.9477304220199585,
+    "iou": 0.9006536602973938,
+    "sensitivity": 0.9489316344261169,
+    "specificity": 0.9988503456115723,
+    "precision": 0.9465322494506836,
+    "patient_id": "BraTS2021_00734",
+    "category": "test"
+  },
+  {
+    "dice": 0.8316393494606018,
+    "iou": 0.711800217628479,
+    "sensitivity": 0.9911626577377319,
+    "specificity": 0.9986613988876343,
+    "precision": 0.7163465023040771,
+    "patient_id": "BraTS2021_00735",
+    "category": "test"
+  },
+  {
+    "dice": 0.8522238731384277,
+    "iou": 0.7425000667572021,
+    "sensitivity": 0.8690926432609558,
+    "specificity": 0.9991248250007629,
+    "precision": 0.8359975218772888,
+    "patient_id": "BraTS2021_00736",
+    "category": "test"
+  },
+  {
+    "dice": 0.9793875217437744,
+    "iou": 0.9596076607704163,
+    "sensitivity": 0.9729007482528687,
+    "specificity": 0.9998655319213867,
+    "precision": 0.9859614372253418,
+    "patient_id": "BraTS2021_00744",
+    "category": "test"
+  },
+  {
+    "dice": 0.9574090838432312,
+    "iou": 0.9182978868484497,
+    "sensitivity": 0.9219145774841309,
+    "specificity": 0.9999887943267822,
+    "precision": 0.9957461357116699,
+    "patient_id": "BraTS2021_00758",
+    "category": "test"
+  },
+  {
+    "dice": 0.9233005046844482,
+    "iou": 0.857528567314148,
+    "sensitivity": 0.9483702182769775,
+    "specificity": 0.9996095299720764,
+    "precision": 0.899522066116333,
+    "patient_id": "BraTS2021_00795",
+    "category": "test"
+  },
+  {
+    "dice": 0.9742448329925537,
+    "iou": 0.9497829675674438,
+    "sensitivity": 0.9788890480995178,
+    "specificity": 0.9996989369392395,
+    "precision": 0.9696444272994995,
+    "patient_id": "BraTS2021_00805",
+    "category": "test"
+  },
+  {
+    "dice": 0.9825494289398193,
+    "iou": 0.9656975269317627,
+    "sensitivity": 0.9928388595581055,
+    "specificity": 0.9995768070220947,
+    "precision": 0.9724711179733276,
+    "patient_id": "BraTS2021_00814",
+    "category": "test"
+  },
+  {
+    "dice": 0.9724783301353455,
+    "iou": 0.9464309811592102,
+    "sensitivity": 0.9970117807388306,
+    "specificity": 0.999571681022644,
+    "precision": 0.9491233229637146,
+    "patient_id": "BraTS2021_00830",
+    "category": "test"
+  },
+  {
+    "dice": 0.8716356754302979,
+    "iou": 0.7724771499633789,
+    "sensitivity": 0.8473684787750244,
+    "specificity": 0.9991803765296936,
+    "precision": 0.8973338007926941,
+    "patient_id": "BraTS2021_00834",
+    "category": "test"
+  },
+  {
+    "dice": 0.9774445295333862,
+    "iou": 0.9558841586112976,
+    "sensitivity": 0.9951297044754028,
+    "specificity": 0.9998133182525635,
+    "precision": 0.9603769779205322,
+    "patient_id": "BraTS2021_01001",
+    "category": "test"
+  },
+  {
+    "dice": 0.9493786692619324,
+    "iou": 0.9036354422569275,
+    "sensitivity": 0.9597793817520142,
+    "specificity": 0.9994431734085083,
+    "precision": 0.9392009973526001,
+    "patient_id": "BraTS2021_01004",
+    "category": "test"
+  },
+  {
+    "dice": 0.9542421102523804,
+    "iou": 0.912488579750061,
+    "sensitivity": 0.9219681620597839,
+    "specificity": 0.9998710751533508,
+    "precision": 0.9888575673103333,
+    "patient_id": "BraTS2021_01005",
+    "category": "test"
+  },
+  {
+    "dice": 0.9226043224334717,
+    "iou": 0.8563281893730164,
+    "sensitivity": 0.9151766896247864,
+    "specificity": 0.9996674060821533,
+    "precision": 0.9301535487174988,
+    "patient_id": "BraTS2021_01008",
+    "category": "test"
+  },
+  {
+    "dice": 0.9588903784751892,
+    "iou": 0.9210273027420044,
+    "sensitivity": 0.9427742958068848,
+    "specificity": 0.9998540282249451,
+    "precision": 0.9755670428276062,
+    "patient_id": "BraTS2021_01009",
+    "category": "test"
+  },
+  {
+    "dice": 0.9277979135513306,
+    "iou": 0.8653200268745422,
+    "sensitivity": 0.9678080677986145,
+    "specificity": 0.9992898106575012,
+    "precision": 0.8909645676612854,
+    "patient_id": "BraTS2021_01010",
+    "category": "test"
+  },
+  {
+    "dice": 0.9684675335884094,
+    "iou": 0.9388628602027893,
+    "sensitivity": 0.9863253235816956,
+    "specificity": 0.9995673298835754,
+    "precision": 0.9512448310852051,
+    "patient_id": "BraTS2021_01011",
+    "category": "test"
+  },
+  {
+    "dice": 0.9623920321464539,
+    "iou": 0.9275102019309998,
+    "sensitivity": 0.9904422760009766,
+    "specificity": 0.9993136525154114,
+    "precision": 0.935886800289154,
+    "patient_id": "BraTS2021_01016",
+    "category": "test"
+  },
+  {
+    "dice": 0.9810479283332825,
+    "iou": 0.9628008008003235,
+    "sensitivity": 0.9964257478713989,
+    "specificity": 0.999294102191925,
+    "precision": 0.9661375284194946,
+    "patient_id": "BraTS2021_01020",
+    "category": "test"
+  },
+  {
+    "dice": 0.8822516798973083,
+    "iou": 0.7893115282058716,
+    "sensitivity": 0.8332955241203308,
+    "specificity": 0.9995760321617126,
+    "precision": 0.9373192191123962,
+    "patient_id": "BraTS2021_01027",
+    "category": "test"
+  },
+  {
+    "dice": 0.9698505401611328,
+    "iou": 0.9414658546447754,
+    "sensitivity": 0.95259690284729,
+    "specificity": 0.999889075756073,
+    "precision": 0.987740695476532,
+    "patient_id": "BraTS2021_01033",
+    "category": "test"
+  },
+  {
+    "dice": 0.9529246687889099,
+    "iou": 0.9100822806358337,
+    "sensitivity": 0.9724640250205994,
+    "specificity": 0.999383807182312,
+    "precision": 0.9341551065444946,
+    "patient_id": "BraTS2021_01038",
+    "category": "test"
+  },
+  {
+    "dice": 0.9406953454017639,
+    "iou": 0.8880309462547302,
+    "sensitivity": 0.9858529567718506,
+    "specificity": 0.9988806247711182,
+    "precision": 0.8994934558868408,
+    "patient_id": "BraTS2021_01051",
+    "category": "test"
+  },
+  {
+    "dice": 0.9175643920898438,
+    "iou": 0.847684919834137,
+    "sensitivity": 0.9292069673538208,
+    "specificity": 0.9995721578598022,
+    "precision": 0.9062098860740662,
+    "patient_id": "BraTS2021_01057",
+    "category": "test"
+  },
+  {
+    "dice": 0.9285324215888977,
+    "iou": 0.8665986657142639,
+    "sensitivity": 0.9023914337158203,
+    "specificity": 0.9992815256118774,
+    "precision": 0.9562330842018127,
+    "patient_id": "BraTS2021_01067",
+    "category": "test"
+  },
+  {
+    "dice": 0.9115117192268372,
+    "iou": 0.8374106287956238,
+    "sensitivity": 0.9070243835449219,
+    "specificity": 0.9989532232284546,
+    "precision": 0.9160436391830444,
+    "patient_id": "BraTS2021_01071",
+    "category": "test"
+  },
+  {
+    "dice": 0.9427982568740845,
+    "iou": 0.8917864561080933,
+    "sensitivity": 0.9828146696090698,
+    "specificity": 0.9988758563995361,
+    "precision": 0.9059129357337952,
+    "patient_id": "BraTS2021_01074",
+    "category": "test"
+  },
+  {
+    "dice": 0.9710679650306702,
+    "iou": 0.9437629580497742,
+    "sensitivity": 0.9752785563468933,
+    "specificity": 0.9991142153739929,
+    "precision": 0.9668934941291809,
+    "patient_id": "BraTS2021_01079",
+    "category": "test"
+  },
+  {
+    "dice": 0.9415496587753296,
+    "iou": 0.8895549178123474,
+    "sensitivity": 0.9893952012062073,
+    "specificity": 0.9989186525344849,
+    "precision": 0.8981181979179382,
+    "patient_id": "BraTS2021_01080",
+    "category": "test"
+  },
+  {
+    "dice": 0.9896731376647949,
+    "iou": 0.9795573353767395,
+    "sensitivity": 0.9900740385055542,
+    "specificity": 0.9999022483825684,
+    "precision": 0.9892724752426147,
+    "patient_id": "BraTS2021_01086",
+    "category": "test"
+  },
+  {
+    "dice": 0.9794801473617554,
+    "iou": 0.9597854614257812,
+    "sensitivity": 0.9680378437042236,
+    "specificity": 0.999841570854187,
+    "precision": 0.9911961555480957,
+    "patient_id": "BraTS2021_01093",
+    "category": "test"
+  },
+  {
+    "dice": 0.9832339882850647,
+    "iou": 0.9670208692550659,
+    "sensitivity": 0.9853344559669495,
+    "specificity": 0.9995469450950623,
+    "precision": 0.9811424612998962,
+    "patient_id": "BraTS2021_01095",
+    "category": "test"
+  },
+  {
+    "dice": 0.811568021774292,
+    "iou": 0.6828898191452026,
+    "sensitivity": 0.7796282172203064,
+    "specificity": 0.9983667135238647,
+    "precision": 0.8462367057800293,
+    "patient_id": "BraTS2021_01104",
+    "category": "test"
+  },
+  {
+    "dice": 0.9627937078475952,
+    "iou": 0.9282567501068115,
+    "sensitivity": 0.9465852975845337,
+    "specificity": 0.9996930956840515,
+    "precision": 0.9795669317245483,
+    "patient_id": "BraTS2021_01105",
+    "category": "test"
+  },
+  {
+    "dice": 0.9526826739311218,
+    "iou": 0.909640908241272,
+    "sensitivity": 0.9801379442214966,
+    "specificity": 0.9992707967758179,
+    "precision": 0.9267235994338989,
+    "patient_id": "BraTS2021_01115",
+    "category": "test"
+  },
+  {
+    "dice": 0.9629366397857666,
+    "iou": 0.928522527217865,
+    "sensitivity": 0.9732010960578918,
+    "specificity": 0.9993793368339539,
+    "precision": 0.9528865218162537,
+    "patient_id": "BraTS2021_01120",
+    "category": "test"
+  },
+  {
+    "dice": 0.9213334321975708,
+    "iou": 0.8541410565376282,
+    "sensitivity": 0.9759898781776428,
+    "specificity": 0.999767541885376,
+    "precision": 0.872473955154419,
+    "patient_id": "BraTS2021_01132",
+    "category": "test"
+  },
+  {
+    "dice": 0.8209718465805054,
+    "iou": 0.6963123679161072,
+    "sensitivity": 0.7612364292144775,
+    "specificity": 0.9985496997833252,
+    "precision": 0.8908807039260864,
+    "patient_id": "BraTS2021_01138",
+    "category": "test"
+  },
+  {
+    "dice": 0.9480777382850647,
+    "iou": 0.9012811779975891,
+    "sensitivity": 0.9576571583747864,
+    "specificity": 0.999370813369751,
+    "precision": 0.9386880993843079,
+    "patient_id": "BraTS2021_01140",
+    "category": "test"
+  },
+  {
+    "dice": 0.9642881751060486,
+    "iou": 0.931039035320282,
+    "sensitivity": 0.9489163160324097,
+    "specificity": 0.9997346997261047,
+    "precision": 0.9801661968231201,
+    "patient_id": "BraTS2021_01146",
+    "category": "test"
+  },
+  {
+    "dice": 0.9124533534049988,
+    "iou": 0.8390015959739685,
+    "sensitivity": 0.952032208442688,
+    "specificity": 0.9996016621589661,
+    "precision": 0.8760339617729187,
+    "patient_id": "BraTS2021_01159",
+    "category": "test"
+  },
+  {
+    "dice": 0.8546933531761169,
+    "iou": 0.7462571859359741,
+    "sensitivity": 0.9795560836791992,
+    "specificity": 0.9963064789772034,
+    "precision": 0.7580639123916626,
+    "patient_id": "BraTS2021_01170",
+    "category": "test"
+  },
+  {
+    "dice": 0.92226642370224,
+    "iou": 0.8557462096214294,
+    "sensitivity": 0.9342607259750366,
+    "specificity": 0.9987863302230835,
+    "precision": 0.9105761647224426,
+    "patient_id": "BraTS2021_01172",
+    "category": "test"
+  },
+  {
+    "dice": 0.9845470786094666,
+    "iou": 0.9695644974708557,
+    "sensitivity": 0.9772214293479919,
+    "specificity": 0.9999322891235352,
+    "precision": 0.9919834136962891,
+    "patient_id": "BraTS2021_01176",
+    "category": "test"
+  },
+  {
+    "dice": 0.9752601385116577,
+    "iou": 0.9517148733139038,
+    "sensitivity": 0.9707075357437134,
+    "specificity": 0.9999215602874756,
+    "precision": 0.9798557162284851,
+    "patient_id": "BraTS2021_01181",
+    "category": "test"
+  },
+  {
+    "dice": 0.969668984413147,
+    "iou": 0.9411237239837646,
+    "sensitivity": 0.9900800585746765,
+    "specificity": 0.9997532963752747,
+    "precision": 0.9500824213027954,
+    "patient_id": "BraTS2021_01187",
+    "category": "test"
+  },
+  {
+    "dice": 0.9587101340293884,
+    "iou": 0.9206948280334473,
+    "sensitivity": 0.9651593565940857,
+    "specificity": 0.999171793460846,
+    "precision": 0.9523465633392334,
+    "patient_id": "BraTS2021_01188",
+    "category": "test"
+  },
+  {
+    "dice": 0.8986063003540039,
+    "iou": 0.815881073474884,
+    "sensitivity": 0.914379894733429,
+    "specificity": 0.999081015586853,
+    "precision": 0.883367657661438,
+    "patient_id": "BraTS2021_01196",
+    "category": "test"
+  },
+  {
+    "dice": 0.974837064743042,
+    "iou": 0.9509093761444092,
+    "sensitivity": 0.9657650589942932,
+    "specificity": 0.9998207092285156,
+    "precision": 0.9840810894966125,
+    "patient_id": "BraTS2021_01201",
+    "category": "test"
+  },
+  {
+    "dice": 0.8751714825630188,
+    "iou": 0.7780488133430481,
+    "sensitivity": 0.9663025140762329,
+    "specificity": 0.9981338977813721,
+    "precision": 0.7997480034828186,
+    "patient_id": "BraTS2021_01203",
+    "category": "test"
+  },
+  {
+    "dice": 0.9193572402000427,
+    "iou": 0.8507503867149353,
+    "sensitivity": 0.8973591923713684,
+    "specificity": 0.9997414350509644,
+    "precision": 0.9424609541893005,
+    "patient_id": "BraTS2021_01224",
+    "category": "test"
+  },
+  {
+    "dice": 0.6442827582359314,
+    "iou": 0.47523391246795654,
+    "sensitivity": 0.5227285027503967,
+    "specificity": 0.9995834231376648,
+    "precision": 0.839497983455658,
+    "patient_id": "BraTS2021_01240",
+    "category": "test"
+  },
+  {
+    "dice": 0.8479790091514587,
+    "iou": 0.7360795140266418,
+    "sensitivity": 0.9851400256156921,
+    "specificity": 0.9994790554046631,
+    "precision": 0.7443439960479736,
+    "patient_id": "BraTS2021_01252",
+    "category": "test"
+  },
+  {
+    "dice": 0.9478780031204224,
+    "iou": 0.9009202122688293,
+    "sensitivity": 0.972501277923584,
+    "specificity": 0.9992716312408447,
+    "precision": 0.9244707822799683,
+    "patient_id": "BraTS2021_01254",
+    "category": "test"
+  },
+  {
+    "dice": 0.9644933342933655,
+    "iou": 0.9314216375350952,
+    "sensitivity": 0.9844068884849548,
+    "specificity": 0.9991074204444885,
+    "precision": 0.9453694820404053,
+    "patient_id": "BraTS2021_01256",
+    "category": "test"
+  },
+  {
+    "dice": 0.9351491332054138,
+    "iou": 0.8781973123550415,
+    "sensitivity": 0.9567734599113464,
+    "specificity": 0.9993904232978821,
+    "precision": 0.9144806861877441,
+    "patient_id": "BraTS2021_01258",
+    "category": "test"
+  },
+  {
+    "dice": 0.7613867521286011,
+    "iou": 0.6147090196609497,
+    "sensitivity": 0.9087443351745605,
+    "specificity": 0.9950770735740662,
+    "precision": 0.6551506519317627,
+    "patient_id": "BraTS2021_01267",
+    "category": "test"
+  },
+  {
+    "dice": 0.8725405335426331,
+    "iou": 0.7738996744155884,
+    "sensitivity": 0.8662568926811218,
+    "specificity": 0.9989440441131592,
+    "precision": 0.8789160251617432,
+    "patient_id": "BraTS2021_01269",
+    "category": "test"
+  },
+  {
+    "dice": 0.9537526369094849,
+    "iou": 0.9115937948226929,
+    "sensitivity": 0.9832358360290527,
+    "specificity": 0.9986880421638489,
+    "precision": 0.925986111164093,
+    "patient_id": "BraTS2021_01283",
+    "category": "test"
+  },
+  {
+    "dice": 0.9310594201087952,
+    "iou": 0.8710113763809204,
+    "sensitivity": 0.8870105147361755,
+    "specificity": 0.9996507167816162,
+    "precision": 0.9797118902206421,
+    "patient_id": "BraTS2021_01284",
+    "category": "test"
+  },
+  {
+    "dice": 0.946257472038269,
+    "iou": 0.8979969024658203,
+    "sensitivity": 0.932935893535614,
+    "specificity": 0.9995124340057373,
+    "precision": 0.9599650502204895,
+    "patient_id": "BraTS2021_01285",
+    "category": "test"
+  },
+  {
+    "dice": 0.9567741751670837,
+    "iou": 0.9171304702758789,
+    "sensitivity": 0.9916688203811646,
+    "specificity": 0.9988359212875366,
+    "precision": 0.9242517948150635,
+    "patient_id": "BraTS2021_01288",
+    "category": "test"
+  },
+  {
+    "dice": 0.9470952749252319,
+    "iou": 0.8995071053504944,
+    "sensitivity": 0.9841123223304749,
+    "specificity": 0.9995918273925781,
+    "precision": 0.9127620458602905,
+    "patient_id": "BraTS2021_01290",
+    "category": "test"
+  },
+  {
+    "dice": 0.9621720314025879,
+    "iou": 0.9271016716957092,
+    "sensitivity": 0.9543229937553406,
+    "specificity": 0.9996406435966492,
+    "precision": 0.9701512455940247,
+    "patient_id": "BraTS2021_01291",
+    "category": "test"
+  },
+  {
+    "dice": 0.9589267373085022,
+    "iou": 0.9210944175720215,
+    "sensitivity": 0.9599059224128723,
+    "specificity": 0.9998130202293396,
+    "precision": 0.9579495787620544,
+    "patient_id": "BraTS2021_01295",
+    "category": "test"
+  },
+  {
+    "dice": 0.7828996181488037,
+    "iou": 0.6432498097419739,
+    "sensitivity": 0.8347217440605164,
+    "specificity": 0.9976802468299866,
+    "precision": 0.7371359467506409,
+    "patient_id": "BraTS2021_01297",
+    "category": "test"
+  },
+  {
+    "dice": 0.9759584665298462,
+    "iou": 0.9530458450317383,
+    "sensitivity": 0.9879648685455322,
+    "specificity": 0.9997634291648865,
+    "precision": 0.9642404317855835,
+    "patient_id": "BraTS2021_01306",
+    "category": "test"
+  },
+  {
+    "dice": 0.9861237406730652,
+    "iou": 0.9726272821426392,
+    "sensitivity": 0.9841040968894958,
+    "specificity": 0.9997578859329224,
+    "precision": 0.9881516695022583,
+    "patient_id": "BraTS2021_01307",
+    "category": "test"
+  },
+  {
+    "dice": 0.9434565901756287,
+    "iou": 0.8929653167724609,
+    "sensitivity": 0.9962801337242126,
+    "specificity": 0.9990617036819458,
+    "precision": 0.8959525227546692,
+    "patient_id": "BraTS2021_01314",
+    "category": "test"
+  },
+  {
+    "dice": 0.9863952398300171,
+    "iou": 0.9731557369232178,
+    "sensitivity": 0.9947159886360168,
+    "specificity": 0.999674916267395,
+    "precision": 0.9782125949859619,
+    "patient_id": "BraTS2021_01317",
+    "category": "test"
+  },
+  {
+    "dice": 0.9650636315345764,
+    "iou": 0.9324859976768494,
+    "sensitivity": 0.9346987009048462,
+    "specificity": 0.999940037727356,
+    "precision": 0.9974677562713623,
+    "patient_id": "BraTS2021_01326",
+    "category": "test"
+  },
+  {
+    "dice": 0.9631247520446777,
+    "iou": 0.9288723468780518,
+    "sensitivity": 0.9423398971557617,
+    "specificity": 0.9999802112579346,
+    "precision": 0.9848471283912659,
+    "patient_id": "BraTS2021_01327",
+    "category": "test"
+  },
+  {
+    "dice": 0.9837918877601624,
+    "iou": 0.9681007862091064,
+    "sensitivity": 0.9751287698745728,
+    "specificity": 0.9998974800109863,
+    "precision": 0.9926102757453918,
+    "patient_id": "BraTS2021_01328",
+    "category": "test"
+  },
+  {
+    "dice": 0.9771896600723267,
+    "iou": 0.9553967118263245,
+    "sensitivity": 0.9813675284385681,
+    "specificity": 0.9995882511138916,
+    "precision": 0.9730472564697266,
+    "patient_id": "BraTS2021_01339",
+    "category": "test"
+  },
+  {
+    "dice": 0.9701175689697266,
+    "iou": 0.9419692754745483,
+    "sensitivity": 0.9809494018554688,
+    "specificity": 0.9998496174812317,
+    "precision": 0.9595224261283875,
+    "patient_id": "BraTS2021_01340",
+    "category": "test"
+  },
+  {
+    "dice": 0.4340609014034271,
+    "iou": 0.27718889713287354,
+    "sensitivity": 0.9943113923072815,
+    "specificity": 0.9990126490592957,
+    "precision": 0.27762916684150696,
+    "patient_id": "BraTS2021_01341",
+    "category": "test"
+  },
+  {
+    "dice": 0.9655023813247681,
+    "iou": 0.9333056211471558,
+    "sensitivity": 0.9725249409675598,
+    "specificity": 0.9997884631156921,
+    "precision": 0.9585805535316467,
+    "patient_id": "BraTS2021_01353",
+    "category": "test"
+  },
+  {
+    "dice": 0.9814162850379944,
+    "iou": 0.9635106325149536,
+    "sensitivity": 0.987606406211853,
+    "specificity": 0.9997389316558838,
+    "precision": 0.9753032326698303,
+    "patient_id": "BraTS2021_01357",
+    "category": "test"
+  },
+  {
+    "dice": 0.9836004972457886,
+    "iou": 0.9677301645278931,
+    "sensitivity": 0.97996985912323,
+    "specificity": 0.9997735023498535,
+    "precision": 0.9872580766677856,
+    "patient_id": "BraTS2021_01358",
+    "category": "test"
+  },
+  {
+    "dice": 0.8801122903823853,
+    "iou": 0.7858933210372925,
+    "sensitivity": 0.9881452322006226,
+    "specificity": 0.9998039603233337,
+    "precision": 0.7933734655380249,
+    "patient_id": "BraTS2021_01363",
+    "category": "test"
+  },
+  {
+    "dice": 0.36572128534317017,
+    "iou": 0.22378146648406982,
+    "sensitivity": 0.23392224311828613,
+    "specificity": 0.9997413158416748,
+    "precision": 0.8377170562744141,
+    "patient_id": "BraTS2021_01364",
+    "category": "test"
+  },
+  {
+    "dice": 0.9504135847091675,
+    "iou": 0.9055125117301941,
+    "sensitivity": 0.929588258266449,
+    "specificity": 0.9994081258773804,
+    "precision": 0.9721934199333191,
+    "patient_id": "BraTS2021_01368",
+    "category": "test"
+  },
+  {
+    "dice": 0.9787566661834717,
+    "iou": 0.9583971500396729,
+    "sensitivity": 0.9706041216850281,
+    "specificity": 0.999783456325531,
+    "precision": 0.9870473742485046,
+    "patient_id": "BraTS2021_01385",
+    "category": "test"
+  },
+  {
+    "dice": 0.9756205081939697,
+    "iou": 0.9524014592170715,
+    "sensitivity": 0.9650822877883911,
+    "specificity": 0.9999193549156189,
+    "precision": 0.9863913655281067,
+    "patient_id": "BraTS2021_01390",
+    "category": "test"
+  },
+  {
+    "dice": 0.9513939619064331,
+    "iou": 0.907293975353241,
+    "sensitivity": 0.998380720615387,
+    "specificity": 0.9997373223304749,
+    "precision": 0.9086310863494873,
+    "patient_id": "BraTS2021_01395",
+    "category": "test"
+  },
+  {
+    "dice": 0.9694664478302002,
+    "iou": 0.9407423138618469,
+    "sensitivity": 0.9852228760719299,
+    "specificity": 0.999753475189209,
+    "precision": 0.954206109046936,
+    "patient_id": "BraTS2021_01408",
+    "category": "test"
+  },
+  {
+    "dice": 0.9264748692512512,
+    "iou": 0.8630211353302002,
+    "sensitivity": 0.9821169972419739,
+    "specificity": 0.9993873834609985,
+    "precision": 0.8767995834350586,
+    "patient_id": "BraTS2021_01409",
+    "category": "test"
+  },
+  {
+    "dice": 0.9803019762039185,
+    "iou": 0.9613649845123291,
+    "sensitivity": 0.9676749110221863,
+    "specificity": 0.9999292492866516,
+    "precision": 0.9932629466056824,
+    "patient_id": "BraTS2021_01410",
+    "category": "test"
+  },
+  {
+    "dice": 0.882291853427887,
+    "iou": 0.789375901222229,
+    "sensitivity": 0.8165339827537537,
+    "specificity": 0.9994029402732849,
+    "precision": 0.9595687985420227,
+    "patient_id": "BraTS2021_01429",
+    "category": "test"
+  },
+  {
+    "dice": 0.9533961415290833,
+    "iou": 0.9109427332878113,
+    "sensitivity": 0.9546270966529846,
+    "specificity": 0.9986006617546082,
+    "precision": 0.952168345451355,
+    "patient_id": "BraTS2021_01432",
+    "category": "test"
+  },
+  {
+    "dice": 0.8882336020469666,
+    "iou": 0.798939049243927,
+    "sensitivity": 0.9655888080596924,
+    "specificity": 0.9984614253044128,
+    "precision": 0.8223533034324646,
+    "patient_id": "BraTS2021_01433",
+    "category": "test"
+  },
+  {
+    "dice": 0.9543247222900391,
+    "iou": 0.9126396179199219,
+    "sensitivity": 0.949741005897522,
+    "specificity": 0.9995321035385132,
+    "precision": 0.9589528441429138,
+    "patient_id": "BraTS2021_01442",
+    "category": "test"
+  },
+  {
+    "dice": 0.9536755084991455,
+    "iou": 0.9114528894424438,
+    "sensitivity": 0.9773309230804443,
+    "specificity": 0.9988970756530762,
+    "precision": 0.9311380982398987,
+    "patient_id": "BraTS2021_01445",
+    "category": "test"
+  },
+  {
+    "dice": 0.9211975932121277,
+    "iou": 0.8539076447486877,
+    "sensitivity": 0.9190982580184937,
+    "specificity": 0.9992113709449768,
+    "precision": 0.9233065247535706,
+    "patient_id": "BraTS2021_01450",
+    "category": "test"
+  },
+  {
+    "dice": 0.79775071144104,
+    "iou": 0.6635485291481018,
+    "sensitivity": 0.6805242300033569,
+    "specificity": 0.9999441504478455,
+    "precision": 0.9637686610221863,
+    "patient_id": "BraTS2021_01451",
+    "category": "test"
+  },
+  {
+    "dice": 0.9649046063423157,
+    "iou": 0.9321891069412231,
+    "sensitivity": 0.9761950969696045,
+    "specificity": 0.9988617300987244,
+    "precision": 0.9538723230361938,
+    "patient_id": "BraTS2021_01467",
+    "category": "test"
+  },
+  {
+    "dice": 0.8462384343147278,
+    "iou": 0.7334604263305664,
+    "sensitivity": 0.7810721397399902,
+    "specificity": 0.9996067881584167,
+    "precision": 0.9232683777809143,
+    "patient_id": "BraTS2021_01469",
+    "category": "test"
+  },
+  {
+    "dice": 0.8947360515594482,
+    "iou": 0.8095224499702454,
+    "sensitivity": 0.8116726279258728,
+    "specificity": 0.9999783635139465,
+    "precision": 0.9967383146286011,
+    "patient_id": "BraTS2021_01474",
+    "category": "test"
+  },
+  {
+    "dice": 0.9560710191726685,
+    "iou": 0.9158391356468201,
+    "sensitivity": 0.9786215424537659,
+    "specificity": 0.9995969533920288,
+    "precision": 0.934536337852478,
+    "patient_id": "BraTS2021_01476",
+    "category": "test"
+  },
+  {
+    "dice": 0.834092378616333,
+    "iou": 0.7154017686843872,
+    "sensitivity": 0.7205271124839783,
+    "specificity": 0.9998408555984497,
+    "precision": 0.9901548624038696,
+    "patient_id": "BraTS2021_01479",
+    "category": "test"
+  },
+  {
+    "dice": 0.9273288249969482,
+    "iou": 0.8645042181015015,
+    "sensitivity": 0.8682543039321899,
+    "specificity": 0.9999005794525146,
+    "precision": 0.9950287938117981,
+    "patient_id": "BraTS2021_01489",
+    "category": "test"
+  },
+  {
+    "dice": 0.9077640771865845,
+    "iou": 0.8311062455177307,
+    "sensitivity": 0.8608035445213318,
+    "specificity": 0.9999024271965027,
+    "precision": 0.9601441025733948,
+    "patient_id": "BraTS2021_01491",
+    "category": "test"
+  },
+  {
+    "dice": 0.9405437111854553,
+    "iou": 0.8877607583999634,
+    "sensitivity": 0.9692322611808777,
+    "specificity": 0.9991236329078674,
+    "precision": 0.9135046601295471,
+    "patient_id": "BraTS2021_01499",
+    "category": "test"
+  },
+  {
+    "dice": 0.9068251848220825,
+    "iou": 0.829533576965332,
+    "sensitivity": 0.9710196256637573,
+    "specificity": 0.9995058178901672,
+    "precision": 0.8505922555923462,
+    "patient_id": "BraTS2021_01500",
+    "category": "test"
+  },
+  {
+    "dice": 0.9086422920227051,
+    "iou": 0.8325797319412231,
+    "sensitivity": 0.9397284388542175,
+    "specificity": 0.9974024891853333,
+    "precision": 0.8795469999313354,
+    "patient_id": "BraTS2021_01506",
+    "category": "test"
+  },
+  {
+    "dice": 0.9089654088020325,
+    "iou": 0.8331224322319031,
+    "sensitivity": 0.849829912185669,
+    "specificity": 0.9996331930160522,
+    "precision": 0.9769462943077087,
+    "patient_id": "BraTS2021_01514",
+    "category": "test"
+  },
+  {
+    "dice": 0.8767260909080505,
+    "iou": 0.7805095911026001,
+    "sensitivity": 0.8950240015983582,
+    "specificity": 0.9995409250259399,
+    "precision": 0.859161376953125,
+    "patient_id": "BraTS2021_01519",
+    "category": "test"
+  },
+  {
+    "dice": 0.9590358138084412,
+    "iou": 0.921295702457428,
+    "sensitivity": 0.9420140981674194,
+    "specificity": 0.9996954202651978,
+    "precision": 0.976684033870697,
+    "patient_id": "BraTS2021_01524",
+    "category": "test"
+  },
+  {
+    "dice": 0.8389574289321899,
+    "iou": 0.7225896716117859,
+    "sensitivity": 0.7289542555809021,
+    "specificity": 0.9999621510505676,
+    "precision": 0.9880611896514893,
+    "patient_id": "BraTS2021_01525",
+    "category": "test"
+  },
+  {
+    "dice": 0.9516563415527344,
+    "iou": 0.9077712893486023,
+    "sensitivity": 0.9360861778259277,
+    "specificity": 0.9997654557228088,
+    "precision": 0.9677531719207764,
+    "patient_id": "BraTS2021_01526",
+    "category": "test"
+  },
+  {
+    "dice": 0.913876473903656,
+    "iou": 0.8414111733436584,
+    "sensitivity": 0.8782798647880554,
+    "specificity": 0.9988067746162415,
+    "precision": 0.9524804353713989,
+    "patient_id": "BraTS2021_01528",
+    "category": "test"
+  },
+  {
+    "dice": 0.9388571381568909,
+    "iou": 0.884760320186615,
+    "sensitivity": 0.9522059559822083,
+    "specificity": 0.9994007349014282,
+    "precision": 0.9258773922920227,
+    "patient_id": "BraTS2021_01529",
+    "category": "test"
+  },
+  {
+    "dice": 0.947491466999054,
+    "iou": 0.90022212266922,
+    "sensitivity": 0.9209470748901367,
+    "specificity": 0.9990077018737793,
+    "precision": 0.9756113886833191,
+    "patient_id": "BraTS2021_01533",
+    "category": "test"
+  },
+  {
+    "dice": 0.9616398811340332,
+    "iou": 0.926114022731781,
+    "sensitivity": 0.9758694767951965,
+    "specificity": 0.9996688961982727,
+    "precision": 0.9478192925453186,
+    "patient_id": "BraTS2021_01535",
+    "category": "test"
+  },
+  {
+    "dice": 0.837828516960144,
+    "iou": 0.7209164500236511,
+    "sensitivity": 0.9996790885925293,
+    "specificity": 0.9977853894233704,
+    "precision": 0.7210833430290222,
+    "patient_id": "BraTS2021_01536",
+    "category": "test"
+  },
+  {
+    "dice": 0.9706475734710693,
+    "iou": 0.9429691433906555,
+    "sensitivity": 0.9806342720985413,
+    "specificity": 0.9995198249816895,
+    "precision": 0.9608622789382935,
+    "patient_id": "BraTS2021_01540",
+    "category": "test"
+  },
+  {
+    "dice": 0.9361440539360046,
+    "iou": 0.8799538016319275,
+    "sensitivity": 0.9724227786064148,
+    "specificity": 0.9984049797058105,
+    "precision": 0.9024749994277954,
+    "patient_id": "BraTS2021_01541",
+    "category": "test"
+  },
+  {
+    "dice": 0.9876017570495605,
+    "iou": 0.9755071401596069,
+    "sensitivity": 0.9826481938362122,
+    "specificity": 0.9997916221618652,
+    "precision": 0.992605447769165,
+    "patient_id": "BraTS2021_01554",
+    "category": "test"
+  },
+  {
+    "dice": 0.9779843688011169,
+    "iou": 0.9569172263145447,
+    "sensitivity": 0.9950367212295532,
+    "specificity": 0.9993581771850586,
+    "precision": 0.9615066051483154,
+    "patient_id": "BraTS2021_01565",
+    "category": "test"
+  },
+  {
+    "dice": 0.977357029914856,
+    "iou": 0.9557167887687683,
+    "sensitivity": 0.9948540925979614,
+    "specificity": 0.9992295503616333,
+    "precision": 0.9604647755622864,
+    "patient_id": "BraTS2021_01568",
+    "category": "test"
+  },
+  {
+    "dice": 0.9723677635192871,
+    "iou": 0.9462215304374695,
+    "sensitivity": 0.9782862067222595,
+    "specificity": 0.9996209144592285,
+    "precision": 0.9665204286575317,
+    "patient_id": "BraTS2021_01577",
+    "category": "test"
+  },
+  {
+    "dice": 0.7292382121086121,
+    "iou": 0.5738590955734253,
+    "sensitivity": 0.5767781734466553,
+    "specificity": 0.9998777508735657,
+    "precision": 0.9912578463554382,
+    "patient_id": "BraTS2021_01578",
+    "category": "test"
+  },
+  {
+    "dice": 0.9874724745750427,
+    "iou": 0.9752549529075623,
+    "sensitivity": 0.996336817741394,
+    "specificity": 0.9998212456703186,
+    "precision": 0.9787644743919373,
+    "patient_id": "BraTS2021_01583",
+    "category": "test"
+  },
+  {
+    "dice": 0.9356774091720581,
+    "iou": 0.8791295289993286,
+    "sensitivity": 0.9900651574134827,
+    "specificity": 0.9994287490844727,
+    "precision": 0.8869539499282837,
+    "patient_id": "BraTS2021_01591",
+    "category": "test"
+  },
+  {
+    "dice": 0.7558434009552002,
+    "iou": 0.6075146794319153,
+    "sensitivity": 0.9620676636695862,
+    "specificity": 0.9994617700576782,
+    "precision": 0.6224235892295837,
+    "patient_id": "BraTS2021_01594",
+    "category": "test"
+  },
+  {
+    "dice": 0.8416658639907837,
+    "iou": 0.7266175150871277,
+    "sensitivity": 0.988768994808197,
+    "specificity": 0.9986927509307861,
+    "precision": 0.7326644659042358,
+    "patient_id": "BraTS2021_01599",
+    "category": "test"
+  },
+  {
+    "dice": 0.9828237295150757,
+    "iou": 0.9662275910377502,
+    "sensitivity": 0.9800555109977722,
+    "specificity": 0.9998222589492798,
+    "precision": 0.9856076836585999,
+    "patient_id": "BraTS2021_01601",
+    "category": "test"
+  },
+  {
+    "dice": 0.9293810129165649,
+    "iou": 0.8680782318115234,
+    "sensitivity": 0.994169294834137,
+    "specificity": 0.9995146989822388,
+    "precision": 0.872520387172699,
+    "patient_id": "BraTS2021_01611",
+    "category": "test"
+  },
+  {
+    "dice": 0.9632171988487244,
+    "iou": 0.9290443658828735,
+    "sensitivity": 0.9524562954902649,
+    "specificity": 0.9998111724853516,
+    "precision": 0.9742240309715271,
+    "patient_id": "BraTS2021_01623",
+    "category": "test"
+  },
+  {
+    "dice": 0.9168539047241211,
+    "iou": 0.8464730381965637,
+    "sensitivity": 0.9140264987945557,
+    "specificity": 0.9995107650756836,
+    "precision": 0.91969895362854,
+    "patient_id": "BraTS2021_01629",
+    "category": "test"
+  },
+  {
+    "dice": 0.98000168800354,
+    "iou": 0.9607875347137451,
+    "sensitivity": 0.9980891942977905,
+    "specificity": 0.9995800852775574,
+    "precision": 0.9625580310821533,
+    "patient_id": "BraTS2021_01630",
+    "category": "test"
+  },
+  {
+    "dice": 0.7172650694847107,
+    "iou": 0.5591685771942139,
+    "sensitivity": 0.8481059074401855,
+    "specificity": 0.9956448078155518,
+    "precision": 0.6213991641998291,
+    "patient_id": "BraTS2021_01636",
+    "category": "test"
+  },
+  {
+    "dice": 0.8965973258018494,
+    "iou": 0.8125749230384827,
+    "sensitivity": 0.8586854934692383,
+    "specificity": 0.9998821020126343,
+    "precision": 0.9380115270614624,
+    "patient_id": "BraTS2021_01640",
+    "category": "test"
+  },
+  {
+    "dice": 0.9779652953147888,
+    "iou": 0.9568806886672974,
+    "sensitivity": 0.9705988168716431,
+    "specificity": 0.9997785687446594,
+    "precision": 0.9854443669319153,
+    "patient_id": "BraTS2021_01642",
+    "category": "test"
+  },
+  {
+    "dice": 0.943087637424469,
+    "iou": 0.8923044204711914,
+    "sensitivity": 0.9233285784721375,
+    "specificity": 0.999872088432312,
+    "precision": 0.9637108445167542,
+    "patient_id": "BraTS2021_01644",
+    "category": "test"
+  },
+  {
+    "dice": 0.9210951924324036,
+    "iou": 0.8537316918373108,
+    "sensitivity": 0.8797480463981628,
+    "specificity": 0.9996398687362671,
+    "precision": 0.9665205478668213,
+    "patient_id": "BraTS2021_01653",
+    "category": "test"
+  },
+  {
+    "dice": 0.9375559687614441,
+    "iou": 0.882452130317688,
+    "sensitivity": 0.9656528830528259,
+    "specificity": 0.9987402558326721,
+    "precision": 0.9110479354858398,
+    "patient_id": "BraTS2021_01655",
+    "category": "test"
+  },
+  {
+    "dice": 0.9583008289337158,
+    "iou": 0.9199400544166565,
+    "sensitivity": 0.99186110496521,
+    "specificity": 0.9991504549980164,
+    "precision": 0.9269372820854187,
+    "patient_id": "BraTS2021_01662",
+    "category": "test"
+  },
+  {
+    "dice": 0.9622450470924377,
+    "iou": 0.9272372722625732,
+    "sensitivity": 0.9426825642585754,
+    "specificity": 0.9996331334114075,
+    "precision": 0.9826366901397705,
+    "patient_id": "BraTS2021_01664",
+    "category": "test"
+  },
+  {
+    "dice": 0.9712885618209839,
+    "iou": 0.9441798329353333,
+    "sensitivity": 0.9774269461631775,
+    "specificity": 0.9993799328804016,
+    "precision": 0.9652268290519714,
+    "patient_id": "BraTS2021_01665",
+    "category": "test"
+  },
+  {
+    "dice": 0.9199874401092529,
+    "iou": 0.8518303632736206,
+    "sensitivity": 0.8751049637794495,
+    "specificity": 0.9995697140693665,
+    "precision": 0.9697226881980896,
+    "patient_id": "BraTS2021_01666",
+    "category": "test"
+  }
+]
